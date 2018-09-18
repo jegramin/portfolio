@@ -1,0 +1,282 @@
+.header{
+    background-color:lightblue;
+    height:120px;
+    width: 70%;
+    border-radius: 0 0 3px 0;
+    float: right;
+}
+.contactButton{  
+    border: 1px solid #123d5a;
+    border-radius: 4px;
+    color: #eee;
+    background-color: #123d5a;
+    padding: 5px 15px;
+    text-decoration: none;
+    float: right;
+    margin: 10px 10px;
+}
+.intro{
+    color:#036;
+    margin:30px 0 0 120px; 
+}
+
+/* Side bar //////////////////////////// */
+.sideBar{
+    width: 30%;
+    float: left;
+    background-color: #0c2340;
+    height: 700px;
+    border-radius: 0 0 3px 3px;
+} 
+.web{
+    color: #eee;
+    text-align: center;
+    margin-top: 20px;
+}
+.buttons{
+    margin: 60% 10% 0 0;
+    text-align: right;
+}
+.button{
+    border: 1px solid #123d5a;
+    border-radius: 4px;
+    color: #eee;
+    background-color: #123d5a;
+    width: 40%;
+}
+
+/* about me //////////////////////////// */
+.aboutMeButton{
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    background-color: #123d5a;
+    text-align: center;
+    color:#fff;
+    border-radius: 4px;
+}
+.aboutMe{
+        margin-top: 15px;
+        padding-top: 15px
+}
+.aboutMePara{
+    color: #eee;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.cvHeader{
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+.cvUl{
+    font-size: 0.9em;
+}
+
+/* contact me ///////////////////////////////////*/
+.contactBar{
+    height: 240px;
+    width: 100%;
+    left:0;
+    bottom: -240px;
+    background-color: #0c2340;
+    display: inline-block;
+    position: absolute;
+}
+.contactMeWrapper{
+    width:80%;
+    margin: auto;
+    color: #eee;
+    margin-top: 15px;
+}
+.a{ text-decoration: none;
+}
+
+/* samples ////////////////////////////////// */
+.recents{
+    color: #123d5a;
+    margin: 80px 0 0 20px;
+    display: inline-block;
+}
+.imgContainer{
+    width: 50%;
+    height: 300px;
+    display: block;
+    float: right;
+    margin-top: 40px;
+}
+.previous{
+    border-left: 1px solid #123d5a;
+    border-top: 1px solid #123d5a;
+    border-bottom: 1px solid #123d5a;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    color: #036;
+    background-color: lightblue;
+    width: 20%;
+}
+.next{
+    border-right: 1px solid #123d5a;
+    border-top: 1px solid #123d5a;
+    border-bottom: 1px solid #123d5a;
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+    color: #036;
+    background-color: lightblue;
+    width: 20%;
+}
+
+
+
+
+
+
+
+  @media only screen and (max-width: 980px) {    
+    .header{
+        height:130px;
+        width: 100%;
+    }  
+    .intro{
+        margin:40px 0 0 90px; 
+    }
+
+    /* Side bar //////////////////////////// */
+    .sideBar{
+        width: 100%;
+        height: 650px;
+        border-radius: 0 0 3px 3px;
+        margin-bottom: 30px;
+    } 
+    .web{
+        margin-top: 30px;
+    }
+    .buttons{
+        margin: 15% 20% 0 0;
+    }
+    .button{
+        width: 30%;
+    }
+
+    /* about me //////////////////////////// */
+    .aboutMeButton{
+        width: 60%;
+        height: 53%;
+    }
+    .aboutMePara{
+        font-size: 1.3em;
+        width: 60%;
+    }
+    .cvUl{
+        font-size: 1.1em;
+    }
+
+    /* contact me ///////////////////////////////////*/
+    .contactBar{
+        height: 240px;
+        width: 100%;
+        left:0;
+        bottom: -100px;
+        background-color: #0c2340;
+        display: inline-block;
+        position: relative;
+    }
+    .contactMeWrapper{
+        width:80%;
+        margin: auto;
+        color: #eee;
+        margin-top: 15px;
+    }
+    /* samples ////////////////////////////////// */
+    .recents{
+        margin: 10px;
+        text-align: center;
+        display: block;
+    }
+    .imgContainer{
+        width: 100%;
+        height: 500px;
+        margin: 0px;
+    }
+    .previous{
+        width: 20%;
+        margin-left: 30%;
+    }
+    .next{
+        width: 20%;
+        
+    }
+  }
+
+  @media  (max-width: 640px) {  
+    .header{
+        height:150px;
+        width: 100%;
+    }  
+    .intro{
+        margin:30px 0 0 60px; 
+    }
+
+    /* Side bar //////////////////////////// */
+    .sideBar{
+        width: 100%;
+        height: 650px;
+        border-radius: 0 0 3px 3px;
+        margin-bottom: 30px;
+    } 
+    .web{
+        margin-top: 30px;
+    }
+    .buttons{
+        margin: 25% 10% 0 0;
+    }
+
+    /* about me //////////////////////////// */
+    .aboutMeButton{
+        width: 80%;
+        height: 53%;
+    }
+    .aboutMePara{
+        font-size: 1.3em;
+    }
+    .cvUl{
+        font-size: 1.2em;
+    }
+
+    /* contact me ///////////////////////////////////*/
+    .contactBar{
+        height: 240px;
+        width: 100%;
+        left:0;
+        bottom: -100px;
+        background-color: #0c2340;
+        display: inline-block;
+        position: relative;
+    }
+    .contactMeWrapper{
+        width:80%;
+        margin: auto;
+        color: #eee;
+        margin-top: 15px;
+    }
+    /* samples ////////////////////////////////// */
+    .recents{
+        margin: 10px;
+        text-align: center;
+        display: block;
+    }
+    .imgContainer{
+        width: 100%;
+        height: 300px;
+        margin: 0px;
+    }
+    .previous{
+        width: 20%;
+        margin-left: 30%;
+    }
+    .next{
+        width: 20%;
+        
+    }
+  }
